@@ -1,0 +1,18 @@
+.testimonials {
+    margin-top: 120px;
+    &-places {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        &__item {
+            text-align: center;
+            margin: 0 30px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+        }
+    }
+}

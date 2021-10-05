@@ -1,0 +1,418 @@
+.header {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .navbar-item__menu {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  margin-top: 55px;
+  font-size: 14px;
+}
+
+.header .navbar-item {
+  margin-right: 40px;
+}
+
+.header .navbar-item:last-child {
+  margin-right: 0;
+}
+
+.header .logo {
+  background: url(../img/house-logo.svg);
+  width: 134px;
+  height: 66px;
+  margin-top: 30px;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  background: url("../img/herobg.png");
+  background-size: cover;
+  position: relative;
+}
+
+.hero__title {
+  color: #D4C17F;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  padding-top: 296px;
+}
+
+.hero__mouse {
+  background: url(../img/mouse.svg);
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.hero-contacts {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.hero-contacts img {
+  margin-right: 15px;
+}
+
+.hero-contacts__address {
+  margin-right: 136px;
+}
+
+.hero-contacts a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.testimonials {
+  margin-top: 120px;
+}
+
+.testimonials-places {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.testimonials-places__item {
+  text-align: center;
+  margin: 0 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.appartments {
+  margin-top: 100px;
+}
+
+.appartments-loft__1, .appartments-loft__2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 0;
+}
+
+.appartments-loft img {
+  max-width: 535px;
+}
+
+.appartments h2 {
+  color: #D4C17F;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 100px;
+}
+
+.appartments-loft__item, .appartments-loft-2__item {
+  position: relative;
+}
+
+.appartments span {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.form {
+  background: url("../img/bg-form.png");
+  height: 560px;
+}
+
+.form h2 {
+  padding-top: 180px;
+  color: #D4C17F;
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.form-item__name, .form-item__phone {
+  width: 255px;
+  height: 50px;
+  background-color: #ffffff;
+  opacity: 0.2;
+  margin: 15px;
+  color: black;
+  outline: none;
+  box-sizing: border-box;
+  padding: 11px 80px;
+  font-size: 14px;
+}
+
+.form-item__name:last-child, .form-item__phone:last-child {
+  margin-right: 0;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+
+.form-text {
+  max-width: 50%;
+}
+
+.form-input {
+  max-width: 50%;
+  padding-top: 270px;
+}
+
+.form-input__bottom {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input__bottom p {
+  font-family: 'Raleway';
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  justify-content: center;
+  color: #E7E7E7;
+  width: 252.5px;
+  height: 28px;
+  margin: 17px;
+}
+
+.form-input__bottom div {
+  width: 252.5px;
+  height: 50px;
+  margin: 17px;
+  background-color: #D4C17F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-input__bottom div:last-child {
+  margin-right: 0;
+}
+
+.form-input__bottom a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.form-input__top {
+  display: flex;
+}
+
+.video img {
+  position: absolute;
+  z-index: -1;
+  margin-left: 190px;
+}
+
+.video-item {
+  position: relative;
+}
+
+.video-item__link {
+  justify-content: center;
+  display: flex;
+}
+
+.video-item__link svg {
+  margin: 275px 310px;
+}
+
+.map {
+  margin-bottom: 180px;
+}
+
+.map-text {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 36px;
+  color: #D4C17F;
+  margin: 180px 0 100px 0;
+}
+
+.form-second__text {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 36px;
+  color: #D4C17F;
+  margin: 180px 0 60px 0;
+}
+
+.form-second .second {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 180px;
+}
+
+.form-second .form-input__bottom div {
+  margin-left: 30px;
+}
+
+.form-second .form-input__bottom p {
+  margin: 0 20px 0 0;
+}
+
+.footer {
+  background: #2D343C;
+  height: 272px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  background: url(../img/house-logo.svg);
+  width: 134px;
+  height: 66px;
+  margin-top: 60px;
+}
+
+.footer__contacts {
+  margin-top: 55px;
+}
+
+.footer a {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer a span {
+  color: #D4C17F;
+}
+
+.footer-navbar__menu {
+  list-style-type: none;
+  margin-top: 72px;
+}
+
+.footer__contacts li {
+  list-style-type: none;
+  margin: 0 25px 15px 0;
+}
+
+.footer .navbar-list__item {
+  font-family: 'Raleway';
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  padding-bottom: 15px;
+}
+
+.footer .navbar-list__item:last-child {
+  padding-bottom: 0;
+}
+
+.footer-social__list {
+  display: flex;
+}
+
+.footer-social__youtube:hover path {
+  fill: red;
+  transition: 0.4s;
+}
+
+.footer-social__vk-fb:hover path {
+  fill: #00c3ff;
+  transition: 0.4s;
+}
+
+.footer-social__insta:hover path {
+  fill: rgba(228, 100, 200, 0.973);
+  transition: 0.4s;
+}
+
+body {
+  background-color: #242b33;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.bg-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 400px;
+  line-height: 533px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.02;
+}
+
+.II {
+  top: 750px;
+  left: 1000px;
+}
+
+.III {
+  top: 1200px;
+  right: 900px;
+}
+
+.IV {
+  top: 2700px;
+  left: 1200px;
+}
+
+.V {
+  top: 3400px;
+  right: 1100px;
+}

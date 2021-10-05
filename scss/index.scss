@@ -1,0 +1,54 @@
+@import './components/header';
+@import './helpers/variables';
+@import './sections/hero';
+@import './sections/testimonials';
+@import './sections/appartments';
+@import './sections/form';
+@import './sections/video';
+@import './sections/map';
+@import './sections/form-second';
+@import './components/footer';
+body {
+    background-color: $bg-color;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.bg-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 533px;
+    text-align: center;
+    color: $bg-white;
+    opacity: 0.02;
+}
+
+.II {
+    top: 750px;
+    left: 1000px;
+}
+
+.III {
+    top: 1200px;
+    right: 900px;
+}
+
+.IV {
+    top: 2700px;
+    left: 1200px;
+}
+
+.V {
+    top: 3400px;
+    right: 1100px;
+}

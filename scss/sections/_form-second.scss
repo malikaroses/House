@@ -1,0 +1,22 @@
+    .form-second {
+        &__text {
+            font-family: 'Playfair Display';
+            font-weight: bold;
+            font-size: 36px;
+            color: $text-accent;
+            margin: 180px 0 60px 0;
+        }
+        .second {
+            display: flex;
+            padding-top: 0;
+            padding-bottom: 180px;
+        }
+        .form-input__bottom {
+            div {
+                margin-left: 30px;
+            }
+            p {
+                margin: 0 20px 0 0;
+            }
+        }
+    }

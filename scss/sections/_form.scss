@@ -1,0 +1,85 @@
+.form {
+    background: url("../img/bg-form.png");
+    height: 560px;
+    h2 {
+        padding-top: 180px;
+        color: $text-accent;
+        font-family: 'Playfair Display';
+        font-weight: bold;
+        font-size: 36px;
+    }
+    &-item__name,
+    &-item__phone {
+        width: 255px;
+        height: 50px;
+        background-color: $bg-white;
+        opacity: 0.2;
+        margin: 15px;
+        color: black;
+        outline: none;
+        box-sizing: border-box;
+        padding: 11px 80px;
+        font-size: 14px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    p {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 50px;
+    }
+    &-text {
+        max-width: 50%;
+    }
+    &-input {
+        max-width: 50%;
+        padding-top: 270px;
+        &__bottom {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            p {
+                font-family: 'Raleway';
+                font-size: 13px;
+                line-height: 16px;
+                text-align: center;
+                justify-content: center;
+                color: $text-grey;
+                width: 252.5px;
+                height: 28px;
+                margin: 17px;
+            }
+            div {
+                width: 252.5px;
+                height: 50px;
+                margin: 17px;
+                background-color: $text-accent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Raleway';
+                font-weight: 700;
+                font-size: 16px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                cursor: pointer;
+            }
+            a {
+                text-decoration: none;
+                color: $text-white;
+            }
+        }
+    }
+    &-input__top {
+        display: flex;
+    }
+}

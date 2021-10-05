@@ -1,0 +1,63 @@
+.footer {
+    background: #2D343C;
+    height: 272px;
+    &-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-logo {
+        background: url(../img/house-logo.svg);
+        width: 134px;
+        height: 66px;
+        margin-top: 60px;
+    }
+    &__contacts {
+        margin-top: 55px;
+    }
+    a {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        text-decoration: none;
+        cursor: pointer;
+        span {
+            color: $text-accent;
+        }
+    }
+    &-navbar__menu {
+        list-style-type: none;
+        margin-top: 72px;
+    }
+    &__contacts li {
+        list-style-type: none;
+        margin: 0 25px 15px 0;
+    }
+    .navbar-list__item {
+        font-family: 'Raleway';
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        padding-bottom: 15px;
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+    &-social__list {
+        display: flex;
+    }
+    &-social__youtube:hover path {
+        fill: red;
+        transition: 0.4s;
+    }
+    &-social__vk-fb:hover path {
+        fill: rgb(0, 195, 255);
+        transition: 0.4s;
+    }
+    &-social__insta:hover path {
+        fill: rgba(228, 100, 200, 0.973);
+        transition: 0.4s;
+    }
+}

@@ -1,0 +1,30 @@
+    .header {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            &-item__menu {
+                list-style-type: none;
+                font-family: 'Raleway', sans-serif;
+                display: flex;
+                margin-top: 55px;
+                font-size: 14px;
+            }
+            &-item {
+                margin-right: 40px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        .logo {
+            background: url(../img/house-logo.svg);
+            width: 134px;
+            height: 66px;
+            margin-top: 30px;
+        }
+    }

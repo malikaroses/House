@@ -1,0 +1,43 @@
+.hero {
+    height: 100vh;
+    position: relative;
+    background: url("../img/herobg.png");
+    background-size: cover;
+    position: relative;
+    &__title {
+        color: $text-accent;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        padding-top: 296px;
+    }
+    &__mouse {
+        background: url(../img/mouse.svg);
+        width: 40px;
+        height: 40px;
+        margin: 100px auto;
+    }
+    &-contacts {
+        display: flex;
+        justify-content: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        img {
+            margin-right: 15px;
+        }
+        &__address {
+            margin-right: 136px;
+        }
+        a {
+            text-decoration: none;
+            color: $text-white;
+        }
+    }
+}

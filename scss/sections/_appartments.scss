@@ -1,0 +1,37 @@
+.appartments {
+    margin-top: 100px;
+    &-loft__1,
+    &-loft__2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0 0;
+    }
+    &-loft {
+        img {
+            max-width: 535px;
+        }
+    }
+    h2 {
+        color: $text-accent;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 100px;
+    }
+    &-loft__item,
+    &-loft-2__item {
+        position: relative;
+    }
+    span {
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

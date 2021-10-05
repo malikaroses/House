@@ -1,0 +1,17 @@
+.video {
+    img {
+        position: absolute;
+        z-index: -1;
+        margin-left: 190px;
+    }
+    &-item {
+        position: relative;
+        &__link {
+            justify-content: center;
+            display: flex;
+            svg {
+                margin: 275px 310px;
+            }
+        }
+    }
+}
